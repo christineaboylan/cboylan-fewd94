@@ -1,0 +1,16 @@
+body{
+	background-color:lightblue;
+	font-size:14px;
+}
+
+h1{
+	font-color:red;
+}
+
+p{
+	font-color:black;
+}
+
+li{
+	display:inline;
+}
