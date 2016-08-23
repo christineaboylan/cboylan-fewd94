@@ -1,0 +1,31 @@
+.background{
+	background-color:lightgray;
+	padding:10px;
+	text-align:center;
+	margin:1px;
+}
+
+h1{
+	background-color:black;
+	color:white;
+	font-size:15px;
+	padding:3px;
+	margin:5px;
+}
+
+#p1,#p2,#p3{
+	color:blue;
+	background-color:#ff5050;
+	padding:5px;
+	margin:5px;
+}
+
+#p2{
+	color:green;
+}
+
+#p3{
+	color:yellow;
+}
+
+
