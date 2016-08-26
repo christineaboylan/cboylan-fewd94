@@ -1,0 +1,21 @@
+body{
+	font-family:Lato;
+}
+
+h1{
+	color:red;
+}
+
+h2, h3{
+	color:grey;
+}
+
+.continues{
+	color:red;
+	float:right;
+}
+
+div{
+	width:900px;
+	margin-left:30px;
+}
