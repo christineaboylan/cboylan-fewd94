@@ -1,0 +1,57 @@
+/*background styles*/
+
+.container{
+	overflow:hidden;
+}
+
+h1{
+	color:yellow;
+	float:left;
+}
+
+header{
+	background-color:#000000;
+	overflow:hidden;
+	border-bottom:yellow solid 2px;
+}
+
+body{
+	background-color:#e6e6e6;
+}
+
+
+nav{
+	padding-top:25px;
+	float:right;
+}
+
+nav a{
+	text-decoration:none;
+	color:white;
+}
+
+#h2{
+	clear:both;
+	margin-top:50px;
+	padding:15px 0px 15px 0px;
+	background-color:#d0d0d0;
+	font-weight:bold;
+	width:100%;
+	text-align:center;
+}
+
+img{
+	width:100%;
+}
+
+#section1{
+	border:solid black 5px;
+	width:25%;
+	float:left;
+}
+
+.section2{
+	clear:both;
+	padding-top:50px;
+	display:inline-block;
+}
