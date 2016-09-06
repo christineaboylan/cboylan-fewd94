@@ -4,6 +4,11 @@
 	overflow:hidden;
 }
 
+.wrapper{
+	margin:0 auto;
+	width:80%;
+}
+
 h1{
 	color:yellow;
 	float:left;
@@ -23,35 +28,88 @@ body{
 nav{
 	padding-top:25px;
 	float:right;
+	font-size:20px;
 }
 
 nav a{
 	text-decoration:none;
 	color:white;
+	padding:5px 5px 5px 5px;
 }
 
 #h2{
 	clear:both;
-	margin-top:50px;
+	margin-top:0px;
+	margin-bottom:0px;
 	padding:15px 0px 15px 0px;
 	background-color:#d0d0d0;
 	font-weight:bold;
 	width:100%;
 	text-align:center;
+	font-size:25px;
 }
 
-img{
-	width:100%;
+section{
+	background-image:url('../img/coworking.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:600px;
+	padding-top:100px;
 }
 
 #section1{
 	border:solid black 5px;
 	width:25%;
-	float:left;
+	float:right;
+	background-color:rgba(255,255,255,0.5);
+	margin:10px 10px 10px 10px;
+	padding:30px;
 }
 
 .section2{
 	clear:both;
 	padding-top:50px;
 	display:inline-block;
+	float:right;
+}
+
+button{
+	background-color:#d0d0d0;
+	font-weight:bolder;
+	width:60%;
+	margin-left:25px;
+	height:30px;
+}
+
+aside{
+	background-color:blue;
+}
+
+#match{
+	background-color:yellow;
+	width:80%;
+	font-weight:bolder;
+}
+
+#profile,#developer,#designer{
+	float:left;
+	width:25%;
+	padding:20px;
+}
+
+#profile, #developer, #designer{
+	border-right:2px grey solid;
+	margin-right:30px;
+}
+
+footer{
+	background-color:#000000;
+	color:white;
+	width:100%;
+	margin:0px auto;
+	overflow:hidden;
+}
+
+#footer{
+	margin-left:10px;
 }
